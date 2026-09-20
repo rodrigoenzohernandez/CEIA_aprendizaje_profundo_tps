@@ -1,5 +1,5 @@
-apr_prof_env/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 data/
+dataset_por_cliente.csv
