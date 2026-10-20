@@ -12,3 +12,8 @@ dependencies:
   - scikit-learn
   - pytorch>=2.4        # desde conda-forge: el del canal pytorch se compila contra numpy 1.x
   - gdown               # descarga del dataset desde el link de Drive
+  # agregados para el TP3
+  - torchvision
+  - pip
+  - pip:
+      - opencv-python-headless<5   # la 4.x de PyPI trae cv2.data (detector de caras); la de conda-forge es la 5.0
